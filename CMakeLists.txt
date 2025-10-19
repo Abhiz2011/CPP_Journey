@@ -5,5 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CPP_Journey
         01-BinarySearch/main.cpp
-        01-BinarySearch/Solutions/B_Closest_to_the_Left.cpp
-        01-BinarySearch/Solutions/A_Binary_Search.cpp)
+        )
