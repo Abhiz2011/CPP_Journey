@@ -38,8 +38,8 @@ int main() {
         int l,r;
         cin >> l >> r;
         int count;
-        count = fast_binary_search(r,v) - fast_binary_search(l-1,v);
-        cout << count << endl;
+        count = fast_binary_search(r,v) - fast_binary_search(l-1,v); //Main logic for the inclusion-exclusion problem
+        cout << count << endl;//basically example have to ffind number of pages between 70-100 its 31 because 100 pages total and 70-1 therefore 100 - 69 = 31
     }
 
     return 0;

@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CPP_Journey
         01-BinarySearch/main.cpp
-        )
+
+)
